@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  </head>
+
+<h1>Register</h1>
+
+<body>
+  <form>
+    <label for="firstName">First Name:</label>
+    <input id="firstName" type="text" placeholder="John" required>
+    <label for="lastName">Last Name:</label>
+    <input id="lasttName" type="text" placeholder="Doe" required>
+    <br>
+
+    <label for="male">Male</label>
+    <input name="genderChoice" id="male" type="radio" value="male">
+    <label for="female">Female</label>
+    <input name="genderChoice" id="female" type="radio" value="female">
+    <label for="other">Other</label>
+    <input name="genderChoice" id="other" type="radio" value="other">
+    <br>
+
+    <label for="email">E-mail:</label>
+    <input id="email" type="email" name="email" placeholder="your email" required>
+    <label for="password">Password:</label>
+    <input id="password" type="password" name="xxxx" placeholder="your password" pattern=".{5,10}" required title="5 to 10 characters">
+    <br>
+
+    Birthday
+    <select name="Month">
+      <option value="">Month</option>
+      <option value="Jan">Jan</option>
+      <option value="Feb">Feb</option>
+      <option value="Mar">Mar</option>
+      <option value="Apr">Apr</option>
+      <option value="May">May</option>
+    </select>
+    <select name="Day">
+      <option value="">Day</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    <select name="Year">
+      <option value="">Year</option>
+      <option value=2018>2018</option>
+      <option value=2017>2017</option>
+      <option value=2016>2016</option>
+      <option value=2015>2015</option>
+      <option value=2014>2014</option>
+    </select>
+
+    <br>
+    <label for="agree">I agree to the terms and conditions</label>
+    <input id="agree" name="agree" type="checkbox" required>
+
+    <br>
+    <input type="submit"> 
+  </form>
+</body>
+</html>
